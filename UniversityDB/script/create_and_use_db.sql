@@ -1,4 +1,8 @@
 
-USE UniversityDB;
+CREATE DATABASE `UniversityDB`;
 
-SELECT DB_NAME() AS CurrentDatabase;
+
+USE `UniversityDB`;
+
+
+SELECT DATABASE();
